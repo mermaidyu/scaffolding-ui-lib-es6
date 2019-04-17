@@ -30,7 +30,7 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.dev.babel.js --colors",
     "mock": "node mock-server/server.js",
     "start:mock": "concurrently \"npm start\" \"npm run mock\"",
-    "lint:js": "eslint -c .eslintrc.prod.json --fix",
+    "lint:js": "eslint -c .eslintrc.prod.json src/ --fix",
     "test": "jest",
     "package": "cross-env BUILD_PATH=dist npm run build:umd && npm run build:esm && npm run build:cjs",
     "package:watch:umd": "cross-env NODE_ENV=production BUILD_PATH=dist webpack --watch --config webpack.config.prod.babel.js --colors --display-error-details",
