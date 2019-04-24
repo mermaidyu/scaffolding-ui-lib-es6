@@ -53,8 +53,8 @@ npm login        // 登录npm服务.
 1. 发布X版本号执行 bin/publish-major.bat, 表示有重大更新, 并且不兼容老的版本.
 2. 发布Y版本号执行 bin/publish-minor.bat, 表示有功能更新, 并且兼容老的版本.
 3. 发布Z版本号执行 bin/publish-patch.bat, 表示有bug修复, 并且兼容老的版本.
-3. 发布预发布版本号执行 bin/publish-prerelease.bat, 表示该版本还在开发测试中, 可能会有较大改动.
-4. 从服务端卸载模块执行 bin/unpublish.bat.
+4. 发布预发布版本号执行 bin/publish-prerelease.bat, 表示该版本还在开发测试中, 可能会有较大改动.
+5. 从服务端卸载模块执行 bin/unpublish.bat.
 
 ### 目录结构
 ```
